@@ -3,7 +3,7 @@ mod traits;
 mod utils;
 
 mod prelude {
-    pub use crate::models::{person_a::PersonA, person_b::PersonB};
+    pub use crate::models::{person_a::PersonA, person_b::PersonB, senamon::Senamon};
     pub use crate::traits::greeting::Greeting;
     pub use crate::utils::io::{show_console_message, get_console_input};
 }
